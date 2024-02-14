@@ -1,0 +1,144 @@
+* {
+    font-family: 'Helvetica';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: 0.2s linear;
+}
+
+body {
+    background: #76c1ff;
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+    padding-left: 20rem;
+}
+
+.box {
+    display: inline-block;
+    width: 13%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.box1 {
+    background-color: #b730f5;
+    border: 2px solid #020202;
+    color: rgb(255, 255, 255);
+    padding: 12px 12px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    transition: background-color 0.5s;
+}
+
+.box1:hover {
+    background: #d488f7;
+}
+
+.box2 {
+    background-color: #ffd6ff;
+    border: 2px solid #020202;
+    color: rgb(2, 2, 2);
+    padding: 12px 12px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    transition: background-color 0.5s;
+}
+
+.box2:hover {
+    background: #ff98ff;
+}
+
+.box3 {
+    background-color: #1511f0;
+    border: 2px solid #020202;
+    color: white;
+    padding: 12px 1px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px; 
+    transition: background-color 0.5s; 
+}
+
+.box3:hover {
+    background: #9a98ff;
+}
+
+.box4 {
+    background-color: #12da97;
+    border: 2px solid #020202;
+    color: rgb(8, 8, 8);
+    padding: 12px 12px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    transition: background-color 0.5s;
+}
+
+.box4:hover {
+    background: rgb(225, 253, 230)
+}
+
+.box5 {
+    background-color: #fff12f;
+    border: 2px solid #020202;
+    color: rgb(15, 14, 14);
+    padding: 12px 12px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    transition: background-color 0.5s;
+}
+
+.box5:hover {
+    background: #fff89d;
+}
+
+.box6 {
+    background-color: #f8792f;
+    border: 2px solid #020202;
+    color: white;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    transition: background-color 0.5s;
+}
+
+.box6:hover {
+    background: #ffb991;
+}
+
+.box7 {
+    background-color: #f11f1f;
+    border: 2px solid #020202;
+    color: white;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    transition: background-color 0.5s;
+}
+
+.box7:hover {
+    background: #f59696;
+}
+
+.btn {
+    background-color: var(--yellow);
+    font-size: 1.7rem;
+    padding: 1rem 2rem;
+    color: var(--dark-bg);
+    text-transform: uppercase;
+}
