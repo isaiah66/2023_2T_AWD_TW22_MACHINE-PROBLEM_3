@@ -1,47 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="everyday.css">
-    <title>Everyday</title>
-</head>
-<body>
-    <div class="container">
-        <div class="box box1">
-            <a href="" class="btn">MONDAY</a>
-        </div><br>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="everyday.css">
+        <title>Everyday</title>
+    </head>
 
-        <div class="box box2">
-            <a href="" class="btn">TUESDAY</a>
-        </div><br>
-
-        <div class="box box3">
-            <a href="" class="btn">WEDNESDAY</a>
-        </div><br>
-
-        <div class="box box4">
-            <a href="" class="btn">THURSDAY</a>
-        </div><br>
-
-        <div class="box box5">
-            <a href="" class="btn">FRIDAY</a>
-        </div><br>
-
-        <div class="box box6">
-            <a href="" class="btn">SATURDAY</a>
-        </div><br>
-
-        <div class="box box7">
-            <a href="" class="btn">SUNDAY</a>
+    <body>
+    <div class="row">
+        <div class="col-sm-4">
+            <button type="button" class="btn btn-primary" style="background-color: #b730f5;" onclick="moveBox('purple')">Monday</button><br>
+            <button type="button" class="btn btn-primary" style="background-color: #ffd6ff;" onclick="moveBox('pink')">Tuesday</button><br>
+            <button type="button" class="btn btn-primary" style="background-color: #3266f5;" onclick="moveBox('blue')">Wednesday</button><br>
+            <button type="button" class="btn btn-primary" style="background-color: #12da97;" onclick="moveBox('green')">Thursday</button><br>
+            <button type="button" class="btn btn-primary" style="background-color: #fff12f;" onclick="moveBox('yellow')">Friday</button><br>
+            <button type="button" class="btn btn-primary" style="background-color: #f8792f;" onclick="moveBox('orange')">Saturday</button><br>
+            <button type="button" class="btn btn-primary" style="background-color: #f11f1f;" onclick="moveBox('red')">Sunday</button>
         </div>
-
-        <div id="animatedBox"></div>
-        
+        <div class="col-md-6">
+            <div id="box1" class="box" ontransitionend="handleTransitionEnd(this)"></div>
+            <div id="box2" class="box"></div>
+        </div>
     </div>
-    
+
     <script src="everyday.js"></script>
 
-</body>
-
+    </body>
 </html>
