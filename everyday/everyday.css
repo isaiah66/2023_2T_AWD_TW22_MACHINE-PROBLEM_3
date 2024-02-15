@@ -46,6 +46,7 @@ button.btn:hover {
     height: 100%;
     box-sizing: border-box;
     border: 10px solid var(--border-color, rgb(0, 0, 0));
+    border-radius: 0;
     transition: background-color 1.5s ease-in-out;
 }
 
