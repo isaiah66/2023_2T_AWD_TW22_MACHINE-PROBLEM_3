@@ -16,8 +16,8 @@ document.addEventListener('DOMContentLoaded', function () {
         document.body.appendChild(newBox);
 
         const startPos = -newBox.offsetHeight;
-        const endPos = 50; // Adjust the final position as needed
-        const colorChangePosition = 20; // Adjust the position where color change occurs
+        const endPos = 50;
+        const colorChangePosition = 20;
 
         newBox.style.top = `${startPos}px`;
         newBox.style.left = `${(window.innerWidth - newBox.offsetWidth) / 2}px`;
